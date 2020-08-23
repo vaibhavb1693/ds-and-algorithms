@@ -2,15 +2,6 @@ package com.trees;
 
 public class BSTImplementation {
 
-    static class TreeNode {
-        int data;
-        TreeNode left;
-        TreeNode right;
-        public TreeNode(int data) {
-            this.data = data;
-        }
-    }
-
     //search
     public static boolean search(TreeNode root, TreeNode nodeToSearch) {
         if (root == null) {
